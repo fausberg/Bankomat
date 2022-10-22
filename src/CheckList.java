@@ -3,6 +3,7 @@ public class CheckList {
     private int balance;
 
     private String cardNumber = "2345 4324 5293 4923";
+    private String PIN = "1234";
 
     public CheckList(){}
 
@@ -29,5 +30,9 @@ public class CheckList {
 
     public String getCardNumber() {
         return cardNumber;
+    }
+
+    public String getPIN() {
+        return PIN;
     }
 }
